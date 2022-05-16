@@ -30,7 +30,7 @@ export const getPizzaById=(pizzaid)=>async dispatch=>{
 
 export const filterPizzas=(searchkey , category)=>async dispatch=>{
 
-  
+    
     dispatch({type:'GET_PIZZAS_REQUEST'})
 
     try {
