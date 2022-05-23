@@ -16,10 +16,10 @@ function App() {
 
       <Router>
         <Routes>
-          <Route path="/" exact element={<HomeScreen />} />
-          <Route path="/cart" exact element={<CartScreen />} />
-          <Route path="/register" exact element={<Registerscreen/>}/>
-          <Route path="/login" exact element={<LoginScreen/>}/>
+          <Route path="/" exact element={HomeScreen } />
+          <Route path="/cart" exact element={CartScreen } />
+          <Route path="/register" exact element={Registerscreen}/>
+          <Route path="/login" exact element={LoginScreen}/>
         </Routes>
       </Router>
 
