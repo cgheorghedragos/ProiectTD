@@ -84,6 +84,4 @@ try {
     alert('Something went wrong')
     console.log(error);
 }
-       
-
 }

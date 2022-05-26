@@ -1,13 +1,13 @@
-export const addToCart=(pizza , quantity , variant)=>(dispatch , getState)=>{
+export const addToCart=(pizza , quantity , varient)=>(dispatch , getState)=>{
 
     var cartItem = {
         name : pizza.name ,
         _id : pizza._id,
         image : pizza.image ,
-        variant : variant ,
+        varient : varient ,
         quantity : Number(quantity) ,
         prices : pizza.prices , 
-        price : pizza.prices[0][variant]* quantity
+        price : pizza.prices[0][varient]* quantity
 
     }
 
